@@ -1,7 +1,7 @@
 # Loading .ph files
 
 import argparse
-from commands import ask_, send_
+from commands import *
 
 parser = argparse.ArgumentParser(description='loads .ph file')
 

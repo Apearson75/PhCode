@@ -19,7 +19,9 @@ int main(int argc, char* argv[])
     outfile.close();
     system("code .");
 } else if (strcmp(argv[1],"-l")==0){
-      system((std::string("python \"C:/Phoneguytech/PH_Code/load.py\" -l") + argv[2]).c_str());
-} 
+    system((std::string("python \"C:/Phoneguytech/PH_Code/load.py\" -l") + argv[2]).c_str());
+} else if (strcmp(argv[1], "shell")==0){
+    system("python \"C:/Phoneguytech/PH_Code/shell.py\"");
+}
 }
 
