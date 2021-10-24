@@ -13,6 +13,7 @@ Test it out by going into cmd and type ```ph shell```. <br />
 
 # Commands
 
-```ph shell``` - Opens the shell to launch ```.ph``` files. When you are in the shell, type the name of the file you want to open. <br />
+```ph shell``` - Opens the shell to type commands in. <br />
 ```ph new``` - Creates a new PhCode project in the directory you are in. <br />
 NOTE. ```ph new``` opens the project in Visual Studio Code, so i recommend you have that installed. <br />
+```ph -l``` - Allows you to load .ph files.
