@@ -22,9 +22,9 @@ except:
  code = input('') 
  text = code.read()  
 
-try:
-    send_(text)
-    ask_(text)
-except:
-    pass    
+
+str_(text)
+send_(text)
+ask_(text)
+    
 
