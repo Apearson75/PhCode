@@ -1,3 +1,3 @@
 build:
-	echo g++ -g ph.cpp -o ph.exe
+	@echo g++ -g ph.cpp -o ph.exe
 		 
