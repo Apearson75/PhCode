@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # PhCode
 
 A Coding Language made with Python that is W.I.P.
